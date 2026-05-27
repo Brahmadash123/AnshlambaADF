@@ -1,0 +1,17 @@
+{
+	"name": "ls_fileonprem",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\BrahmaFiles",
+			"userId": "bdash004@gmail.com",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI1MWM5NWM1ZS03YjlmLTQyMjMtODc4Mi0zMGI5YTRhY2MzYTEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "brahmair",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
